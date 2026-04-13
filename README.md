@@ -4,7 +4,7 @@ Desktop app for course scheduling built with:
 
 - React + TypeScript + Vite
 - Electron
-- Python scheduler bridge
+- Python schedule
 
 ## Two Ways To Share This Project
 
