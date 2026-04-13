@@ -6,18 +6,9 @@ Desktop app for course scheduling built with:
 - Electron
 - Python schedule
 
-## Two Ways To Share This Project
+## How to Run This Project
 
-### 1. Source Code
-If you upload the source code only, users still need to install:
-
-- Node.js
-- npm
-- Python 3
-
-They also need to run the app from source.
-
-### 2. Portable Release
+### 1. Portable Release
 If you upload the portable build from `release/`, end users do **not** need to install:
 
 - Python
@@ -25,66 +16,6 @@ If you upload the portable build from `release/`, end users do **not** need to i
 - Electron
 
 They only need to download the generated portable `.exe` and run it on Windows x64.
-
-## Development
-
-Install dependencies:
-
-```powershell
-npm install
-```
-
-Run lint:
-
-```powershell
-npm run lint
-```
-
-Run Electron dev mode:
-
-```powershell
-npm run dev:electron
-```
-
-## Build Portable App
-
-### Prerequisites for the developer machine
-
-- Node.js
-- npm
-- Python 3
-- PyInstaller
-
-Install PyInstaller once:
-
-```powershell
-py -3 -m pip install pyinstaller
-```
-
-Install JavaScript dependencies:
-
-```powershell
-npm install
-```
-
-Create the recommended portable release asset:
-
-```powershell
-npm run dist:portable
-```
-
-Output:
-
-- Portable zip asset: `release/TimeTableStudio-win-portable.zip`
-- Bundled Python scheduler binaries: `build/python-dist/`
-
-If you want to try a single-file portable `.exe`, use:
-
-```powershell
-npm run dist:portable:onefile
-```
-
-Note: the single-file portable build can take much longer to finish than the zip-based portable build.
 
 ## Important Notes
 
