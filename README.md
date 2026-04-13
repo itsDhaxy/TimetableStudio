@@ -1,6 +1,4 @@
 # TimetableStudio
-Course Timetabling System
-imetableStudio Release v1.0.0
 Overview
 TimetableStudio is a desktop application designed to help educational institutions generate, manage, and validate class schedules efficiently. This release includes the latest build with improved performance and enhanced features for timetable generation and conflict checking.
 
@@ -23,6 +21,3 @@ Initial public release
 Added Git LFS support for large build files
 Improved conflict detection logic
 Enhanced UI and usability
-License
-This project is licensed under the MIT License.
-
